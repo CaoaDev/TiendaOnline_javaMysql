@@ -25,6 +25,11 @@ public class CarritoController {
         return carritoService.insertCarrito(carrito);
     }
 
+    @PutMapping("/modificar")
+    public Carrito modificarCarrito(@RequestBody Carrito carrito) {
+        return carritoService.modificarCarrito(carrito);
+    }
+
     @DeleteMapping("/delete/{id}")
     public void delete(@PathVariable int id){carritoService.delete(id); }
 }

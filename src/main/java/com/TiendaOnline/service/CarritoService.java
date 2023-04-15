@@ -21,6 +21,7 @@ public class CarritoService {
     }
 
     public Carrito insertCarrito(Carrito carrito){return carritoRepository.save(carrito);}
+    public Carrito modificarCarrito(Carrito carrito){return carritoRepository.save(carrito);}
     public void delete(Integer id){
         carritoRepository.deleteById(id);
     }
