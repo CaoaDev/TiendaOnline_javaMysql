@@ -1,6 +1,7 @@
 package com.TiendaOnline.entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "Carrito")
@@ -11,8 +12,11 @@ public class Carrito {
     private Integer id;
     @Column(name = "precio_total")
     private Double precio_total;
-    @Column(name = "id_producto")
-    private Integer id_producto;
+
+    @OneToMany
+    @JoinColumn(name = "id_producto")
+    private List<Producto> producto;
+
     @Column(name = "cantidad_producto")
     private Integer cantidad_producto;
 
@@ -21,10 +25,10 @@ public class Carrito {
 
     public Carrito() {}
 
-    public Carrito(Integer id, Double precio_total, Integer id_producto, Integer cantidad_producto, Double total_venta) {
+    public Carrito(Integer id, Double precio_total, List<Producto> producto, Integer cantidad_producto, Double total_venta) {
         this.id = id;
         this.precio_total = precio_total;
-        this.id_producto = id_producto;
+        this.producto = producto;
         this.cantidad_producto = cantidad_producto;
         this.total_venta = total_venta;
     }
@@ -45,12 +49,12 @@ public class Carrito {
         this.precio_total = precio_total;
     }
 
-    public Integer getId_producto() {
-        return id_producto;
+    public List<Producto> getProducto() {
+        return producto;
     }
 
-    public void setId_producto(Integer id_producto) {
-        this.id_producto = id_producto;
+    public void setProducto(List<Producto> producto) {
+        this.producto = producto;
     }
 
     public Integer getCantidad_producto() {

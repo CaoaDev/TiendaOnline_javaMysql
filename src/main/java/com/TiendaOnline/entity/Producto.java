@@ -19,6 +19,9 @@ public class Producto {
     @Column(name = "Existencia")
     private Integer existencia;
 
+//    @ManyToOne(mappedBy="producto")
+//    private Carrito carrito;
+
     public Producto() {}
 
     public Producto(Integer id, String nombre_producto, Double precio, String codigo_barra, Integer existencia) {
