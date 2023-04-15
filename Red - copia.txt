@@ -1,0 +1,3 @@
+mpp y ejecutarlo corriendo los servicios apache y mySQL
+correr el codigo dentro de intellij del arcivho TiendaOnline
+bajar postman y hacer las pruebas o en phpm
