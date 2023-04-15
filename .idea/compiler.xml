@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bodega" />
+        <module name="TiendaOnline_javaMysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Bodega" options="-parameters" />
       <module name="TiendaOnline" options="-parameters" />
+      <module name="TiendaOnline_javaMysql" options="-parameters" />
     </option>
   </component>
 </project>
