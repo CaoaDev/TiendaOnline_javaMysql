@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="014ee402-3e0c-482a-9279-7775384a4e95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/service/CarritoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/TiendaOnlineApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/TiendaOnlineApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/controller/CarritoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/controller/CarritoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/controller/ProductoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/entity/Carrito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/entity/Carrito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/entity/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/entity/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/repository/CarritoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/repository/CarritoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/repository/ProductoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/repository/ProductoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/service/CarritoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/service/CarritoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TiendaOnline/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TiendaOnline/service/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TiendaOnline/service/ProductoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

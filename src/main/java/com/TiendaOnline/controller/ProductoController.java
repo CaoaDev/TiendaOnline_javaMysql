@@ -28,6 +28,10 @@ public class ProductoController {
     public Producto insertProducto(@RequestBody Producto producto){
         return productoService.insertProducto(producto);
     }
+    @PutMapping("/modificar")
+    public Producto modificarProducto(@RequestBody Producto producto){
+        return productoService.modificarProducto(producto);
+    }
 
     @DeleteMapping("/delete/{id}")
     public void delete(@PathVariable int id){
